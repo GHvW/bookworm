@@ -26,4 +26,29 @@ namespace BookWorm {
             Func<B, C, D> selector) => 
                 (item) => run.SelectMany(b => func(b).Select(c => selector(b, c)))(item);
     }
+
+
+    // just in case
+    //public class Reader2<A, B> {
+
+    //    private readonly Func<A, B> run;
+
+    //    public Reader2(Func<A, B> run) {
+    //        this.run = run;
+    //    }
+
+
+    //    public Reader2<A, C> Select<C>(Func<B, C> func) =>
+    //        new Reader2<A, C>(item => func(this.run(item)));
+
+
+    //    public Reader2<A, C> SelectMany<C>(Func<B, Reader2<A, C>> func) =>
+    //        new Reader2<A, C>(item => func(this.run(item)).run(item));
+
+
+    //    public Reader2<A, D> SelectMany<C, D>(
+    //        Func<B, Reader2<A, C>> func, 
+    //        Func<B, C, D> selector) =>
+    //            new Reader2<A, D>(item => this.SelectMany(b => func(b).Select(c => selector(b, c))).run(item));
+    //}
 }
