@@ -9,4 +9,15 @@ namespace Repository
             Console.WriteLine("Hello World!");
         }
     }
+
+    public class App {
+
+        private readonly IRepo repo;
+
+        public App(IRepo repo) {
+
+        }
+
+
+    }
 }

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWorm", "src\BookWorm\Bo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "examples\Repository\Repository.csproj", "{A484A6D4-1D50-4146-9B1E-C02F377ABFC1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple", "examples\Simple\Simple.csproj", "{94922063-509A-4E1C-891A-9DD29E761F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{A484A6D4-1D50-4146-9B1E-C02F377ABFC1}.Release|x64.Build.0 = Release|Any CPU
 		{A484A6D4-1D50-4146-9B1E-C02F377ABFC1}.Release|x86.ActiveCfg = Release|Any CPU
 		{A484A6D4-1D50-4146-9B1E-C02F377ABFC1}.Release|x86.Build.0 = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|x64.Build.0 = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Debug|x86.Build.0 = Debug|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|x64.ActiveCfg = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|x64.Build.0 = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|x86.ActiveCfg = Release|Any CPU
+		{94922063-509A-4E1C-891A-9DD29E761F7D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
